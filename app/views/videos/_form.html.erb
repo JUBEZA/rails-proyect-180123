@@ -1,0 +1,10 @@
+
+<%= form_with model: @video do |f| %>
+  <%= f.label :title %>
+  <%= f.text_field :title %>
+  <%= f.label :category %>
+  <%= f.text_field :category %>
+  <%= f.label :published_year %>
+  <%= f.number_field :published_year%>
+  <%= f.submit %>
+<% end %>

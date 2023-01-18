@@ -2,6 +2,8 @@
 
 <ul>
   <% @videos.each do |video| %>
-    <li> <%= video.name %></li>
+    <li> <%= video.title %></li>
+    <li> <%= video.category %></li>
+    <li> <%= video.published_year %></li>
   <% end  %>
 </ul>
