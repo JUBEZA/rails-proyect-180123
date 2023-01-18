@@ -1,9 +1,11 @@
 # Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
 
 one:
-  name: MyString
-  rating: 1
+  title: MyString
+  category: MyString
+  published_year: 1
 
 two:
-  name: MyString
-  rating: 1
+  title: MyString
+  category: MyString
+  published_year: 1
